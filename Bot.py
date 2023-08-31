@@ -1,5 +1,21 @@
 from AddressBook import *
+'''
+class CommandType(str, Enum):
+    ADD = 'add'
+    SEARCH = 'search'
 
+class Command(ABS):
+    def __init__(self):
+        self.data = None
+
+    @abstractmethod
+    def command(self):
+        pass
+        
+    @abstractmethod
+    def info(self):
+        ...
+'''
 
 class Bot:
     def __init__(self):
